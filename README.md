@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<img src="./public/Frontend-Mentor-QR-code-component.png" height="450" width="700" >
+<img src="./Frontend-Mentor-QR-code-component.png" height="450" width="700" >
 
 ### Links
 
