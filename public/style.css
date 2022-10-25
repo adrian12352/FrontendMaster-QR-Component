@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.card__top img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card__bottom {
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+.card__bottom h2 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.card__bottom p {
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
